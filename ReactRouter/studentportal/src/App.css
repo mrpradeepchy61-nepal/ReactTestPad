@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #222;
+    color: white;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22px;
+    box-sizing: border-box;
+}
+
+.nav-links{
+    display: flex;
+    gap: 22px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.student-button{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 10px;
+
+}
+
+.std-button{
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 7%;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+
+}
+.student-card{
+  background-color: white;
+  width: 285px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.student-card h3{
+    text-align: center;
+}
