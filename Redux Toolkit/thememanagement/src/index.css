@@ -1,0 +1,27 @@
+.app {
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.dark {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+}
